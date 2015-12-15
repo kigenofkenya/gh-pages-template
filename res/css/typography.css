@@ -1,0 +1,111 @@
+﻿body {
+    font-family: 'cooper_hewittlight';
+    /*  font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;*/
+    font-weight: 100;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
+    text-rendering: optimizeLegibility;
+}
+
+a {
+    color: #4183c4;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #4183c4
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+h1 {
+    font: bold 4em 'league_spartanregular', sans-serif;
+    transition: font-size .25s linear;
+    -o-transition: font-size .25s linear;
+    -moz-transition: font-size .25s linear;
+    -webkit-transition: font-size .25s linear;
+}
+
+h1 span {}
+
+h2 {
+    letter-spacing: -0.05em;
+    font: 3em 'cooper_hewittbook', sans-serif;
+}
+
+h1,
+h2 {
+    margin: 0;
+    padding: 7px 0;
+    color: #000;
+}
+
+h2 span {
+    letter-spacing: -0.05em;
+    font-family: 'inconsolata';
+}
+
+h1 span,
+h2 span {
+    font-size: 40%;
+}
+
+h3 {
+    letter-spacing: -0.05em;
+    font: bold 2em 'inconsolata', sans-serif;
+}
+
+h3 span {
+    letter-spacing: -0.05em;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.4);
+    font-family: 'inconsolata';
+}
+
+h3 span {
+    font-size: 40%;
+}
+
+h4 {
+    margin: 0;
+}
+
+h4 {
+    font-family: 'inconsolata', sans-serif;
+}
+
+h4.red {
+    color: #d65e3d;
+    font-weight: 600;
+}
+p {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 7px 0;
+    transition: all .25s linear;
+    -o-transition: all .25s linear;
+    -moz-transition: all .25s linear;
+    -webkit-transition: all .25s linear;
+}
+@media screen and (max-width: 950px) {
+    h1 {
+        font-size: 3.5em;
+    }
+    h2 {
+        font-size: 2.5em;
+    }
+    p {
+        font-size: 1.2em;
+    }
+}
